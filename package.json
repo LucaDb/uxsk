@@ -1,0 +1,32 @@
+{
+  "name": "uisk",
+  "version": "0.1.0",
+  "description": "Chrome extension for designing and exporting responsive skeleton placeholders",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/LucaDb/uisk.git"
+  },
+  "type": "module",
+  "files": [
+    "dist/extension",
+    "README.md"
+  ],
+  "scripts": {
+    "build": "node scripts/build-extension.mjs",
+    "package:extension": "npm run build && node scripts/package-extension.mjs",
+    "typecheck": "tsc --noEmit -p tsconfig.json",
+    "test": "vitest run"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "devDependencies": {
+    "@types/chrome": "^0.1.33",
+    "@types/node": "^22.13.0",
+    "esbuild": "^0.28.1",
+    "playwright": "^1.58.0",
+    "typescript": "^5.8.3",
+    "vitest": "^5.0.5"
+  }
+}

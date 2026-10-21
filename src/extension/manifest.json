@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "UISK",
+  "version": "0.1.0",
+  "description": "Design responsive skeleton placeholders on webpages and export React, Angular, or HTML.",
+  "homepage_url": "https://github.com/LucaDb/uisk",
+  "icons": {
+    "16": "icons/icon16.png",
+    "32": "icons/icon32.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+  "permissions": ["activeTab", "scripting", "downloads"],
+  "background": { "service_worker": "uisk.js" },
+  "action": {
+    "default_title": "UISK: design a skeleton",
+    "default_icon": { "16": "icons/icon16.png", "32": "icons/icon32.png" }
+  }
+}

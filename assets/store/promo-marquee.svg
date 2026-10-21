@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="560" viewBox="0 0 1400 560">
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#2749b8"/>
+      <stop offset="1" stop-color="#7188e8"/>
+    </linearGradient>
+    <linearGradient id="canvas" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="1" stop-color="#f8f9fc"/>
+    </linearGradient>
+  </defs>
+  <rect width="1400" height="560" fill="url(#background)"/>
+
+  <!-- Product illustration -->
+  <rect x="72" y="48" width="670" height="464" rx="20" fill="#182d79" opacity=".22"/>
+  <rect x="60" y="36" width="670" height="464" rx="20" fill="url(#canvas)"/>
+  <rect x="84" y="60" width="622" height="42" rx="9" fill="#f0f2f8"/>
+  <circle cx="105" cy="81" r="6" fill="#345dd8"/>
+  <rect x="122" y="76" width="110" height="10" rx="5" fill="#c5ccdc"/>
+  <rect x="84" y="122" width="622" height="354" rx="8" fill="#fff" stroke="#4263eb" stroke-width="3"/>
+  <path d="M188 122v354M292 122v354M396 122v354M500 122v354M604 122v354M84 210h622M84 298h622M84 386h622" stroke="#b8c2dc" stroke-width="1.5" opacity=".72"/>
+  <rect x="110" y="148" width="238" height="196" rx="12" fill="#e3e5ea" stroke="#345dd8" stroke-width="3"/>
+  <rect x="383" y="153" width="256" height="25" rx="12" fill="#e3e5ea"/>
+  <rect x="383" y="194" width="180" height="18" rx="9" fill="#e3e5ea"/>
+  <rect x="383" y="237" width="256" height="102" rx="12" fill="#e3e5ea"/>
+  <rect x="110" y="369" width="529" height="22" rx="11" fill="#e3e5ea"/>
+  <rect x="110" y="411" width="345" height="18" rx="9" fill="#e3e5ea"/>
+  <rect x="110" y="446" width="432" height="14" rx="7" fill="#e3e5ea"/>
+
+  <!-- Store message -->
+  <g transform="translate(820 114)" fill="#fff" font-family="Arial,sans-serif">
+    <text x="0" y="0" font-size="22" font-weight="700" letter-spacing="5">UISK</text>
+    <text x="0" y="82" font-size="62" font-weight="700">Draw your</text>
+    <text x="0" y="154" font-size="62" font-weight="700">skeleton</text>
+    <rect x="0" y="184" width="72" height="7" rx="3.5" fill="#ffd66b"/>
+    <text x="0" y="244" font-size="25" opacity=".97">Draw and export skeleton</text>
+    <text x="0" y="282" font-size="25" opacity=".97">for React, Angular or HTML.</text>
+    <g transform="translate(0 340)" font-size="17" font-weight="600" letter-spacing="1.4" opacity=".85">
+      <text x="0" y="0">DRAW</text>
+      <circle cx="78" cy="-6" r="3" fill="#ffd66b"/>
+      <text x="96" y="0">PREVIEW</text>
+      <circle cx="211" cy="-6" r="3" fill="#ffd66b"/>
+      <text x="229" y="0">EXPORT</text>
+    </g>
+  </g>
+</svg>
